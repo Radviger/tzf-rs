@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669297976384,
+  "lastUpdate": 1669643348693,
   "repoUrl": "https://github.com/ringsaturn/tzf-rs",
   "entries": {
     "Go Benchmark": [
@@ -82,6 +82,48 @@ window.BENCHMARK_DATA = {
           {
             "name": "benche_fuzzy::bench_fuzzy_get_tz_beijing",
             "value": 351,
+            "range": "± 3",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ringsaturn.me@gmail.com",
+            "name": "ringsaturn",
+            "username": "ringsaturn"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ebc2e2def9817f7ac906dbbc72a17e9ac149c4ba",
+          "message": "add names API (#11)",
+          "timestamp": "2022-11-28T21:45:10+08:00",
+          "tree_id": "3e1a7f233b8446357fa57aaf8124953ea9f58a64",
+          "url": "https://github.com/ringsaturn/tzf-rs/commit/ebc2e2def9817f7ac906dbbc72a17e9ac149c4ba"
+        },
+        "date": 1669643348433,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "benches_finder::bench_finder_get_tz_beijing",
+            "value": 45860,
+            "range": "± 5051",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "benches_default::bench_default_get_tz_beijing",
+            "value": 471,
+            "range": "± 5",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "benche_fuzzy::bench_fuzzy_get_tz_beijing",
+            "value": 425,
             "range": "± 3",
             "unit": "ns/iter"
           }
