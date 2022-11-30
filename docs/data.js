@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669807807638,
+  "lastUpdate": 1669807808827,
   "repoUrl": "https://github.com/ringsaturn/tzf-rs",
   "entries": {
     "Go Benchmark": [
@@ -293,6 +293,48 @@ window.BENCHMARK_DATA = {
             "name": "benche_fuzzy::bench_fuzzy_get_tz_beijing",
             "value": 421,
             "range": "± 33",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "634e32f6e7b909351616101c31082ba86077f3d8",
+          "message": "Bump clap from 4.0.27 to 4.0.29 (#14)\n\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2022-11-30T19:24:59+08:00",
+          "tree_id": "05313c627bd0a2ce61fc446d7f9e22542dbcb9ba",
+          "url": "https://github.com/ringsaturn/tzf-rs/commit/634e32f6e7b909351616101c31082ba86077f3d8"
+        },
+        "date": 1669807808202,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "benches_finder::bench_finder_get_tz_beijing",
+            "value": 50684,
+            "range": "± 7304",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "benches_default::bench_default_get_tz_beijing",
+            "value": 365,
+            "range": "± 107",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "benche_fuzzy::bench_fuzzy_get_tz_beijing",
+            "value": 287,
+            "range": "± 94",
             "unit": "ns/iter"
           }
         ]
