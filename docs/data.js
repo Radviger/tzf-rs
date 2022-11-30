@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669736231440,
+  "lastUpdate": 1669807773166,
   "repoUrl": "https://github.com/ringsaturn/tzf-rs",
   "entries": {
     "Go Benchmark": [
@@ -208,6 +208,48 @@ window.BENCHMARK_DATA = {
           {
             "name": "benche_fuzzy::bench_fuzzy_get_tz_beijing",
             "value": 348,
+            "range": "± 3",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "21cafa728161674925f11c0a50985820e65ce914",
+          "message": "Bump prost-build from 0.11.2 to 0.11.3 (#15)\n\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2022-11-30T19:25:23+08:00",
+          "tree_id": "7d1a054a2fa23bc78c7fc370b1f39b4449a996bd",
+          "url": "https://github.com/ringsaturn/tzf-rs/commit/21cafa728161674925f11c0a50985820e65ce914"
+        },
+        "date": 1669807772926,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "benches_finder::bench_finder_get_tz_beijing",
+            "value": 45870,
+            "range": "± 1817",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "benches_default::bench_default_get_tz_beijing",
+            "value": 467,
+            "range": "± 6",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "benche_fuzzy::bench_fuzzy_get_tz_beijing",
+            "value": 427,
             "range": "± 3",
             "unit": "ns/iter"
           }
