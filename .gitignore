@@ -1,2 +1,5 @@
+/.idea
 /target
 src/data/*.pb
+*.iml
+Cargo.lock

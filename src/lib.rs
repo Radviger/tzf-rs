@@ -22,8 +22,10 @@
 //! [tzf-rel]: https://github.com/ringsaturn/tzf-rel
 //! [tzfpy]: https://github.com/ringsaturn/tzfpy
 //
+extern crate alloc;
+
 use geometry_rs::{Point, Polygon};
-use std::collections::HashMap;
+use alloc::collections::HashMap;
 use std::f64::consts::PI;
 use std::vec;
 use tzf_rel::{load_preindex, load_reduced};
